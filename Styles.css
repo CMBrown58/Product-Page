@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding-top: 200px;
+background-color: cadetblue;
+color: #0b203a;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav-bar {
+  position: fixed;
+  top: 0;
+  min-height: 70px;
+  padding: 0px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+#header-img {
+  object-fit: contain;
+  height: 70px;
+}
+
+section {
+  margin: 20px;
+  padding: 30px;
+}
+  h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    border: 0;
+  
+  }
+  @media (max-width: 500px ){
+      body {
+        flex-wrap: wrap;
+      }
+  }
+
+
+  
